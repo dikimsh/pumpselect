@@ -1,0 +1,10 @@
+{
+  "name": "펌프 선정",
+  "short_name": "펌프선정",
+  "description": "KMP 부스터 펌프 선정 앱",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#2d2d2d",
+  "theme_color": "#2d2d2d",
+  "orientation": "portrait"
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=340, height=650, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="theme-color" content="#2d2d2d">
+  <title>펌프 선정</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>펌프 선정</h1>
+    </header>
+
+    <main>
+      <section class="top-container">
+        <form id="form" class="form">
+          <div class="form-row form-row-triple">
+            <div class="form-cell">
+              <label>종류</label>
+              <select id="usage" name="usage">
+                <option value="부스터">부스터</option>
+                <option value="FV">소방펌프 (FV)</option>
+                <option value="EFV">엔진펌프 (EFV)</option>
+              </select>
+            </div>
+            <div class="form-cell" id="pumpTypeCell">
+              <label>펌프타입</label>
+              <select id="pumpType" name="pumpType">
+                <option value="입형">입형</option>
+                <option value="횡형">횡형</option>
+              </select>
+            </div>
+            <div class="form-cell" id="quantityCell">
+              <label>펌프수량</label>
+              <select id="quantity" name="quantity">
+                <option value="1">1대</option>
+                <option value="2">2대</option>
+                <option value="3">3대</option>
+                <option value="4">4대</option>
+                <option value="5">5대</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row form-row-flow-head">
+            <div class="form-cell-inline">
+              <label>유량</label>
+              <div class="form-cell-inputs">
+                <input type="number" id="flow" name="flow" step="0.01" min="0" placeholder="값">
+                <select id="flowUnit" name="flowUnit">
+                  <option value="m3h">m³/h</option>
+                  <option value="m3min">m³/min</option>
+                  <option value="lpm">LPM</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-cell-inline form-cell-head">
+              <label>양정</label>
+              <input type="number" id="head" name="head" step="0.01" min="0" placeholder="m">
+            </div>
+          </div>
+          <div class="form-row form-row-power-priming" id="powerPrimingRow">
+            <label>전원</label>
+            <select id="power" name="power">
+              <option value="삼상">삼상</option>
+              <option value="단상">단상</option>
+            </select>
+            <label class="checkbox-label-inline" for="selfPriming">
+              <input type="checkbox" id="selfPriming" name="selfPriming">
+              <span>자흡조건</span>
+            </label>
+          </div>
+          <button type="submit" class="btn">선정하기</button>
+        </form>
+      </section>
+
+      <section class="bottom-container">
+        <div id="resultList" class="result-list"></div>
+        <div id="resultPlaceholder" class="result-placeholder">선정하기 버튼을 눌러 추천 모델을 확인하세요</div>
+        <div id="errorMessage" class="error-message hidden"></div>
+      </section>
+
+      <div id="chartOverlay" class="chart-overlay hidden">
+        <div class="chart-modal">
+          <h2 id="chartTitle">Q-H 곡선</h2>
+          <div id="chartContainer" class="chart-container"></div>
+          <button type="button" id="chartBackBtn" class="btn secondary">닫기</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>designed by D.I.Kim</footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

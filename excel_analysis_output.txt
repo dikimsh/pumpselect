@@ -1,0 +1,1099 @@
+================================================================================
+Excel File Analysis: e:\KMP부스터카탈로그.xlsx
+================================================================================
+
+1. SHEET NAMES
+----------------------------------------
+  1. CVF3
+  2. CVF5
+  3. CVF10
+  4. CVF15
+  5. CVF20
+  6. CVF32
+  7. CVF45
+  8. CVF64
+  9. CVF90
+  10. 2-K-CMI
+  11. 2-ES-CMI
+  12. KZ-CMIA
+  13. KW-CMI
+  14. 1-K-CMI
+  15. 1-K-SWPA
+  16. AZ-CMIA
+
+================================================================================
+SHEET: CVF3
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: nan
+  Col 3: nan
+  Col 4: MOTOR
+  Col 5: nan
+  Col 6: nan
+  Col 7: nan
+  Col 8: 합류관
+  Col 9: nan
+  Col 10: 추천가압
+팽창탱크
+  Col 11: nan
+  Col 12: 유량(m^3/h)
+  Col 13: nan
+  Col 14: 1.5
+  Col 15: nan
+  Col 16: 2.0
+  Col 17: nan
+  Col 18: 2.5
+  Col 19: nan
+  Col 20: 3.0
+  Col 21: nan
+  Col 22: 3.5
+  Col 23: nan
+  Col 24: 4.0
+  Col 25: nan
+  Col 26: 4.5
+  Col 27: 5.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity        MODEL  Unnamed: 2  Unnamed: 3 MOTOR  Unnamed: 5 Unnamed: 6  Unnamed: 7  합류관  Unnamed: 9 추천가압\n팽창탱크  Unnamed: 11 유량(m^3/h)  Unnamed: 13   1.5  Unnamed: 15     2  Unnamed: 17   2.5  Unnamed: 19     3  Unnamed: 21   3.5  Unnamed: 23     4  Unnamed: 25   4.5     5
+0             NaN          NaN         NaN         NaN  (kW)         NaN       (HP)         NaN  NaN         NaN        NaN          NaN       NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN   NaN
+1              1대   1 CV(F)3-4         NaN         NaN  0.55         NaN       0.75         NaN  32A         NaN        50L          NaN   양정\n(m)          NaN  35.0          NaN  34.0          NaN  32.0          NaN  30.0          NaN  27.0          NaN  24.0          NaN  20.0  15.0
+2             NaN   1 CV(F)3-5         NaN         NaN  0.75         NaN          1         NaN  32A         NaN        50L          NaN       NaN          NaN  43.0          NaN  42.0          NaN  40.0          NaN  38.0          NaN  34.0          NaN  30.0          NaN  25.0  19.0
+3             NaN   1 CV(F)3-8         NaN         NaN   1.1         NaN        1.5         NaN  32A         NaN        50L          NaN       NaN          NaN  70.0          NaN  67.0          NaN  64.0          NaN  60.0          NaN  54.0          NaN  48.0          NaN  40.0  30.0
+4             NaN  1 CV(F)3-11         NaN         NaN   1.5         NaN          2         NaN  32A         NaN        50L          NaN       NaN          NaN  96.0          NaN  92.0          NaN  88.0          NaN  83.0          NaN  75.0          NaN  66.0          NaN  55.0  42.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  MOTOR: object
+  Unnamed: 5: float64
+  Unnamed: 6: object
+  Unnamed: 7: float64
+  합류관: str
+  Unnamed: 9: float64
+  추천가압
+팽창탱크: str
+  Unnamed: 11: float64
+  유량(m^3/h): str
+  Unnamed: 13: float64
+  1.5: float64
+  Unnamed: 15: float64
+  2: float64
+  Unnamed: 17: float64
+  2.5: float64
+  Unnamed: 19: float64
+  3: float64
+  Unnamed: 21: float64
+  3.5: float64
+  Unnamed: 23: float64
+  4: float64
+  Unnamed: 25: float64
+  4.5: float64
+  5: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량(m^3/h) (str)
+
+================================================================================
+SHEET: CVF5
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: nan
+  Col 3: nan
+  Col 4: nan
+  Col 5: MOTOR
+  Col 6: nan
+  Col 7: 합류관
+  Col 8: nan
+  Col 9: 추천가압
+팽창탱크
+  Col 10: nan
+  Col 11: 유량(m^3/h)
+  Col 12: nan
+  Col 13: 2.0
+  Col 14: nan
+  Col 15: 3.0
+  Col 16: nan
+  Col 17: 4.0
+  Col 18: nan
+  Col 19: 5.0
+  Col 20: nan
+  Col 21: 6.0
+  Col 22: 7.0
+  Col 23: 8.0
+  Col 24: 9.0
+  Col 25: 10.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity       MODEL  Unnamed: 2  Unnamed: 3  Unnamed: 4 MOTOR Unnamed: 6  합류관  Unnamed: 8 추천가압\n팽창탱크  Unnamed: 10 유량(m^3/h)  Unnamed: 12     2  Unnamed: 14     3  Unnamed: 16     4  Unnamed: 18     5  Unnamed: 20     6     7     8     9    10
+0             NaN         NaN         NaN         NaN         NaN  (kW)       (HP)  NaN         NaN        NaN          NaN       NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)5-2         NaN         NaN         NaN  0.55       0.75  32A         NaN       100L          NaN   양정\n(m)          NaN  19.0          NaN  18.0          NaN  17.5          NaN  16.5          NaN  15.0  14.0  12.0  10.0   8.0
+2             NaN  1 CV(F)5-4         NaN         NaN         NaN   1.1        1.5  32A         NaN       100L          NaN       NaN          NaN  37.0          NaN  36.0          NaN  35.0          NaN  33.0          NaN  30.0  27.0  24.0  20.0  16.0
+3             NaN  1 CV(F)5-5         NaN         NaN         NaN   1.5          2  32A         NaN       100L          NaN       NaN          NaN  47.0          NaN  45.0          NaN  44.0          NaN  41.0          NaN  38.0  34.0  30.0  25.0  20.0
+4             NaN  1 CV(F)5-8         NaN         NaN         NaN   2.2          3  32A         NaN       100L          NaN       NaN          NaN  75.0          NaN  72.0          NaN  70.0          NaN  66.0          NaN  60.0  55.0  48.0  40.0  32.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  Unnamed: 4: float64
+  MOTOR: object
+  Unnamed: 6: object
+  합류관: str
+  Unnamed: 8: float64
+  추천가압
+팽창탱크: str
+  Unnamed: 10: float64
+  유량(m^3/h): str
+  Unnamed: 12: float64
+  2: float64
+  Unnamed: 14: float64
+  3: float64
+  Unnamed: 16: float64
+  4: float64
+  Unnamed: 18: float64
+  5: float64
+  Unnamed: 20: float64
+  6: float64
+  7: float64
+  8: float64
+  9: float64
+  10: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량(m^3/h) (str)
+
+================================================================================
+SHEET: CVF10
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: MOTOR
+  Col 3: nan
+  Col 4: 합류관
+  Col 5: 추천가압
+팽창탱크
+  Col 6: 유량
+(m^3/h)
+  Col 7: 7.0
+  Col 8: 8.0
+  Col 9: 9.0
+  Col 10: 10.0
+  Col 11: 11.0
+  Col 12: 12.0
+  Col 13: 13.0
+  Col 14: 14.0
+  Col 15: 15.0
+  Col 16: 16.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity        MODEL MOTOR Unnamed: 3  합류관 추천가압\n팽창탱크 유량\n(m^3/h)     7     8     9    10    11    12    13    14    15    16
+0             NaN          NaN  (kW)       (HP)  NaN        NaN         NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)10-2   1.5          2  40A       100L     양정\n(m)  28.0  27.0  26.0  25.5  24.0  23.0  22.0  20.0  19.0  16.0
+2             NaN  1 CV(F)10-3   2.2          3  40A       100L         NaN  43.0  41.0  40.0  38.0  36.0  35.0  33.0  30.0  28.0  24.0
+3             NaN  1 CV(F)10-5     3          4  40A       100L         NaN  71.0  69.0  67.0  64.0  60.0  58.0  55.0  50.0  46.0  40.0
+4             NaN  1 CV(F)10-6     4        5.5  40A       100L         NaN  85.0  82.0  80.0  77.0  73.0  70.0  66.0  60.0  56.0  48.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  MOTOR: object
+  Unnamed: 3: object
+  합류관: str
+  추천가압
+팽창탱크: str
+  유량
+(m^3/h): str
+  7: float64
+  8: float64
+  9: float64
+  10: float64
+  11: float64
+  12: float64
+  13: float64
+  14: float64
+  15: float64
+  16: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF15
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: nan
+  Col 3: nan
+  Col 4: MOTOR
+  Col 5: nan
+  Col 6: nan
+  Col 7: nan
+  Col 8: 합류관
+  Col 9: nan
+  Col 10: 추천가압
+팽창탱크
+  Col 11: nan
+  Col 12: 유량
+(m^3/h)
+  Col 13: nan
+  Col 14: nan
+  Col 15: 12.0
+  Col 16: 14.0
+  Col 17: nan
+  Col 18: 16.0
+  Col 19: nan
+  Col 20: 18.0
+  Col 21: nan
+  Col 22: 20.0
+  Col 23: nan
+  Col 24: 22.0
+  Col 25: 24.0
+  Col 26: 26.0
+  Col 27: 28.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity        MODEL  Unnamed: 2  Unnamed: 3 MOTOR  Unnamed: 5 Unnamed: 6  Unnamed: 7  합류관  Unnamed: 9 추천가압\n팽창탱크  Unnamed: 11 유량\n(m^3/h)  Unnamed: 13  Unnamed: 14    12    14  Unnamed: 17    16  Unnamed: 19    18  Unnamed: 21    20  Unnamed: 23    22    24    26    28
+0             NaN          NaN         NaN         NaN  (kW)         NaN       (HP)         NaN  NaN         NaN        NaN          NaN         NaN          NaN          NaN   NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)15-1         NaN         NaN   1.5         NaN          2         NaN  50A         NaN       100L          NaN     양정\n(m)          NaN          NaN  19.5  19.0          NaN  18.5          NaN  18.0          NaN  17.0          NaN  16.0  14.0  12.0  10.0
+2             NaN  1 CV(F)15-2         NaN         NaN     3         NaN          4         NaN  50A         NaN       100L          NaN         NaN          NaN          NaN  39.0  38.0          NaN  37.0          NaN  36.0          NaN  33.0          NaN  30.0  25.0  23.0  21.0
+3             NaN  1 CV(F)15-3         NaN         NaN     4         NaN        5.5         NaN  50A         NaN       100L          NaN         NaN          NaN          NaN  59.0  58.0          NaN  55.0          NaN  51.0          NaN  48.0          NaN  45.0  41.0  38.0  35.0
+4             NaN  1 CV(F)15-4         NaN         NaN   5.5         NaN        7.5         NaN  50A         NaN       100L          NaN         NaN          NaN          NaN  77.0  75.0          NaN  73.0          NaN  70.0          NaN  66.0          NaN  62.0  57.0  51.0  47.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  MOTOR: object
+  Unnamed: 5: float64
+  Unnamed: 6: object
+  Unnamed: 7: float64
+  합류관: str
+  Unnamed: 9: float64
+  추천가압
+팽창탱크: str
+  Unnamed: 11: float64
+  유량
+(m^3/h): str
+  Unnamed: 13: float64
+  Unnamed: 14: float64
+  12: float64
+  14: float64
+  Unnamed: 17: float64
+  16: float64
+  Unnamed: 19: float64
+  18: float64
+  Unnamed: 21: float64
+  20: float64
+  Unnamed: 23: float64
+  22: float64
+  24: float64
+  26: float64
+  28: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF20
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: MOTOR
+  Col 3: nan
+  Col 4: 합류관
+  Col 5: 추천가압 팽창탱크
+  Col 6: 유량
+(m^3/h)
+  Col 7: 14.0
+  Col 8: 16.0
+  Col 9: 20.0
+  Col 10: 24.0
+  Col 11: 28.0
+  Col 12: 32.0
+  Col 13: 34.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity        MODEL MOTOR Unnamed: 3  합류관 추천가압 팽창탱크 유량\n(m^3/h)     14     16    20    24    28    32    34
+0             NaN          NaN  (kW)       (HP)  NaN       NaN         NaN    NaN    NaN   NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)20-2     4        5.5  50A      100L     양정\n(m)   39.5   39.0  37.0  34.0  30.0  25.0  21.0
+2             NaN  1 CV(F)20-3   5.5        7.5  50A      100L         NaN   60.0   59.0  56.0  53.0  44.0  38.0  32.0
+3             NaN  1 CV(F)20-4   7.5         10  50A      100L         NaN   81.0   79.0  75.0  70.0  62.0  50.0  42.0
+4             NaN  1 CV(F)20-5    11         15  50A      100L         NaN  102.0  100.0  95.0  89.0  78.0  65.0  55.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  MOTOR: object
+  Unnamed: 3: object
+  합류관: str
+  추천가압 팽창탱크: str
+  유량
+(m^3/h): str
+  14: float64
+  16: float64
+  20: float64
+  24: float64
+  28: float64
+  32: float64
+  34: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF32
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: nan
+  Col 3: nan
+  Col 4: MOTOR
+  Col 5: nan
+  Col 6: nan
+  Col 7: nan
+  Col 8: 합류관
+  Col 9: nan
+  Col 10: 추천가압
+팽창탱크
+  Col 11: nan
+  Col 12: 유량
+(m^3/h)
+  Col 13: nan
+  Col 14: 20.0
+  Col 15: nan
+  Col 16: 24.0
+  Col 17: nan
+  Col 18: 28.0
+  Col 19: nan
+  Col 20: 32.0
+  Col 21: nan
+  Col 22: 36.0
+  Col 23: 40.0
+  Col 24: 44.0
+  Col 25: 48.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity          MODEL  Unnamed: 2  Unnamed: 3 MOTOR  Unnamed: 5 Unnamed: 6  Unnamed: 7  합류관  Unnamed: 9 추천가압\n팽창탱크  Unnamed: 11 유량\n(m^3/h)  Unnamed: 13    20  Unnamed: 15    24  Unnamed: 17    28  Unnamed: 19    32  Unnamed: 21    36    40    44    48
+0             NaN            NaN         NaN         NaN  (kW)         NaN       (HP)         NaN  NaN         NaN        NaN          NaN         NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN          NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)32-2-2         NaN         NaN   5.5         NaN        7.5         NaN  65A         NaN       150L          NaN     양정\n(m)          NaN  40.0          NaN  38.0          NaN  36.0          NaN  34.0          NaN  31.0  28.0  24.0  20.0
+2             NaN    1 CV(F)32-2         NaN         NaN   7.5         NaN         10         NaN  65A         NaN       150L          NaN         NaN          NaN  50.0          NaN  49.0          NaN  47.0          NaN  45.0          NaN  42.0  39.0  35.0  31.0
+3             NaN    1 CV(F)32-3         NaN         NaN    11         NaN         15         NaN  65A         NaN       150L          NaN         NaN          NaN  72.0          NaN  70.0          NaN  67.0          NaN  62.0          NaN  57.0  51.0  46.0  40.0
+4             NaN    1 CV(F)32-4         NaN         NaN    15         NaN         20         NaN  65A         NaN       150L          NaN         NaN          NaN  98.0          NaN  94.0          NaN  90.0          NaN  83.0          NaN  75.0  66.0  57.0  47.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  MOTOR: object
+  Unnamed: 5: float64
+  Unnamed: 6: object
+  Unnamed: 7: float64
+  합류관: str
+  Unnamed: 9: float64
+  추천가압
+팽창탱크: str
+  Unnamed: 11: float64
+  유량
+(m^3/h): str
+  Unnamed: 13: float64
+  20: float64
+  Unnamed: 15: float64
+  24: float64
+  Unnamed: 17: float64
+  28: float64
+  Unnamed: 19: float64
+  32: float64
+  Unnamed: 21: float64
+  36: float64
+  40: float64
+  44: float64
+  48: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF45
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: MOTOR
+  Col 3: nan
+  Col 4: 합류관
+  Col 5: 추천가압
+팽창탱크
+  Col 6: 유량
+(m^3/h)
+  Col 7: 30.0
+  Col 8: 35.0
+  Col 9: 40.0
+  Col 10: 42.0
+  Col 11: 45.0
+  Col 12: 50.0
+  Col 13: 55.0
+  Col 14: 60.0
+  Col 15: 65.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity          MODEL MOTOR Unnamed: 3  합류관 추천가압\n팽창탱크 유량\n(m^3/h)    30    35    40    42    45    50    55    60    65
+0             NaN            NaN  (kW)       (HP)  NaN        NaN         NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN
+1  1 PUMP\nSeries  1 CV(F)45-1-1   5.5        7.5  80A       200L     양정\n(m)  29.0  25.0  27.0  26.0  25.0  23.0  21.0  19.0  16.0
+2             NaN    1 CV(F)45-1   7.5         10  80A       200L         NaN  34.0  33.0  32.0  31.5  30.0  29.0  27.0  25.0  22.0
+3             NaN  1 CV(F)45-2-2    11         15  80A       200L         NaN  57.0  55.0  53.0  52.0  49.0  46.0  43.0  38.0  33.0
+4             NaN    1 CV(F)45-2    15         20  80A       200L         NaN  69.0  67.0  65.0  63.0  61.0  59.0  55.0  50.0  44.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  MOTOR: object
+  Unnamed: 3: object
+  합류관: str
+  추천가압
+팽창탱크: str
+  유량
+(m^3/h): str
+  30: float64
+  35: float64
+  40: float64
+  42: float64
+  45: float64
+  50: float64
+  55: float64
+  60: float64
+  65: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF64
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: MOTOR
+  Col 3: nan
+  Col 4: 합류관
+  Col 5: 추천가압
+팽창탱크
+  Col 6: 유량
+(m^3/h)
+  Col 7: 40.0
+  Col 8: 50.0
+  Col 9: 60.0
+  Col 10: 65.0
+  Col 11: 70.0
+  Col 12: 80.0
+  Col 13: 90.0
+  Col 14: 100.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity          MODEL MOTOR Unnamed: 3   합류관 추천가압\n팽창탱크 유량\n(m^3/h)    40    50    60    65    70    80    90   100
+0             NaN            NaN  (kW)       (HP)   NaN        NaN         NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)64-1-1   7.5         10  100A       200L     양정\n(m)  26.0  25.0  23.0  22.0  21.0  18.0  14.0  10.0
+2             NaN    1 CV(F)64-1    11         15  100A       200L         NaN  37.0  35.0  33.0  32.0  31.0  28.0  24.0  21.0
+3             NaN  1 CV(F)64-2-2    15         20  100A       200L         NaN  53.0  50.0  47.0  44.0  42.0  37.0  31.0  23.0
+4             NaN    1 CV(F)64-2    22         30  100A       200L         NaN  74.0  72.0  67.0  64.0  62.0  57.0  51.0  42.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  MOTOR: object
+  Unnamed: 3: object
+  합류관: str
+  추천가압
+팽창탱크: str
+  유량
+(m^3/h): str
+  40: float64
+  50: float64
+  60: float64
+  65: float64
+  70: float64
+  80: float64
+  90: float64
+  100: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: CVF90
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0:  Pump
+Quantity
+  Col 1: MODEL
+  Col 2: nan
+  Col 3: nan
+  Col 4: MOTOR
+  Col 5: nan
+  Col 6: nan
+  Col 7: nan
+  Col 8: 합류관
+  Col 9: nan
+  Col 10: 추천가압 팽창탱크
+  Col 11: nan
+  Col 12: 유량
+(m^3/h)
+  Col 13: nan
+  Col 14: 60.0
+  Col 15: nan
+  Col 16: 70.0
+  Col 17: nan
+  Col 18: nan
+  Col 19: 80.0
+  Col 20: 85.0
+  Col 21: nan
+  Col 22: 90.0
+  Col 23: nan
+  Col 24: 100.0
+  Col 25: 110.0
+  Col 26: 120.0
+  Col 27: 130.0
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+   Pump\nQuantity          MODEL  Unnamed: 2  Unnamed: 3 MOTOR  Unnamed: 5 Unnamed: 6  Unnamed: 7   합류관  Unnamed: 9 추천가압 팽창탱크  Unnamed: 11 유량\n(m^3/h)  Unnamed: 13    60  Unnamed: 15    70  Unnamed: 17  Unnamed: 18    80    85  Unnamed: 21    90  Unnamed: 23   100   110   120   130
+0             NaN            NaN         NaN         NaN  (kW)         NaN       (HP)         NaN   NaN         NaN       NaN          NaN         NaN          NaN   NaN          NaN   NaN          NaN          NaN   NaN   NaN          NaN   NaN          NaN   NaN   NaN   NaN   NaN
+1              1대  1 CV(F)90-1-1         NaN         NaN    11         NaN         15         NaN  100A         NaN      200L          NaN     양정\n(m)          NaN  31.0          NaN  27.0          NaN          NaN  25.0  24.0          NaN  23.0          NaN  21.0  18.0  14.0   9.0
+2             NaN    1 CV(F)90-1         NaN         NaN    15         NaN         20         NaN  100A         NaN      200L          NaN         NaN          NaN  36.0          NaN  35.0          NaN          NaN  33.0  31.0          NaN  30.0          NaN  29.0  26.0  23.0  18.0
+3             NaN  1 CV(F)90-2-2         NaN         NaN  18.5         NaN         25         NaN  100A         NaN      200L          NaN         NaN          NaN  59.0          NaN  57.0          NaN          NaN  54.0  51.0          NaN  48.0          NaN  44.0  39.0  32.0  22.0
+4             NaN  1 CV(F)90-2-1         NaN         NaN    22         NaN         30         NaN  100A         NaN      200L          NaN         NaN          NaN  67.0          NaN  65.0          NaN          NaN  62.0  59.0          NaN  57.0          NaN  51.0  47.0  41.0  33.0
+
+4. DATA TYPES
+----------------------------------------
+   Pump
+Quantity: str
+  MODEL: str
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  MOTOR: object
+  Unnamed: 5: float64
+  Unnamed: 6: object
+  Unnamed: 7: float64
+  합류관: str
+  Unnamed: 9: float64
+  추천가압 팽창탱크: str
+  Unnamed: 11: float64
+  유량
+(m^3/h): str
+  Unnamed: 13: float64
+  60: float64
+  Unnamed: 15: float64
+  70: float64
+  Unnamed: 17: float64
+  Unnamed: 18: float64
+  80: float64
+  85: float64
+  Unnamed: 21: float64
+  90: float64
+  Unnamed: 23: float64
+  100: float64
+  110: float64
+  120: float64
+  130: float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  *  Pump
+Quantity (str)
+  * 유량
+(m^3/h) (str)
+
+================================================================================
+SHEET: 2-K-CMI
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL
+  Col 1: MOTOR
+  Col 2: nan
+  Col 3: 구경(A)
+  Col 4: nan
+  Col 5: 유량
+Q[LPM]
+  Col 6: 권장양정
+(m)
+  Col 7: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+           MODEL MOTOR Unnamed: 2 구경(A) Unnamed: 4  유량\nQ[LPM]  권장양정\n(m)  최대양정\n(m)
+0            NaN  (kW)       (HP)    흡입         토출         NaN        NaN        NaN
+1  2-K-ZCMIA 5-2  0.75          1   50A        50A       160.0       22.0       29.0
+2  2-K-ZCMIA 5-3     1        1.5   50A        50A         NaN       33.0       43.0
+3  2-K-ZCMIA 5-4     1        1.5   50A        50A         NaN       44.0       57.0
+4    2-K-CMI 5-2  0.75          1   50A        50A       160.0       22.0       29.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL: str
+  MOTOR: object
+  Unnamed: 2: object
+  구경(A): str
+  Unnamed: 4: str
+  유량
+Q[LPM]: float64
+  권장양정
+(m): float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: 2-ES-CMI
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL
+  Col 1: nan
+  Col 2: MOTOR
+  Col 3: nan
+  Col 4: 구경(A)
+  Col 5: nan
+  Col 6: 권장유량
+Q[LPM]
+  Col 7: 권장양정
+(m)
+  Col 8: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+             MODEL  Unnamed: 1 MOTOR Unnamed: 3 구경(A) Unnamed: 5  권장유량\nQ[LPM]  권장양정\n(m)  최대양정\n(m)
+0              NaN         NaN  (kW)       (HP)    흡입         토출           NaN        NaN        NaN
+1  2-ES-ZCMIA 5-2T         NaN  0.75          1   50A        50A         160.0       22.0       29.0
+2  2-ES-ZCMIA 5-3T         NaN     1        1.5   50A        50A           NaN       33.0       43.0
+3  2-ES-ZCMIA 5-4T         NaN     1        1.5   50A        50A           NaN       44.0       57.0
+4    2-ES-CMI 5-2T         NaN  0.75          1   50A        50A         160.0       22.0       29.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL: str
+  Unnamed: 1: float64
+  MOTOR: object
+  Unnamed: 3: object
+  구경(A): str
+  Unnamed: 5: str
+  권장유량
+Q[LPM]: float64
+  권장양정
+(m): float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 권장유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: KZ-CMIA
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL
+  Col 1: MOTOR
+  Col 2: nan
+  Col 3: 구경(A)
+  Col 4: nan
+  Col 5: 권장유량
+Q[LPM]
+  Col 6: 권장양정
+(m)
+  Col 7: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+         MODEL MOTOR Unnamed: 2 구경(A) Unnamed: 4  권장유량\nQ[LPM]  권장양정\n(m)  최대양정\n(m)
+0          NaN  (kW)       (HP)    흡입         토출           NaN        NaN        NaN
+1  KZ-CMIA 3-3  0.55       0.75   25A        25A          50.0       34.0       42.0
+2  KZ-CMIA 3-4  0.75          1   25A        25A          50.0       45.0       56.0
+3  KZ-CMIA 5-2  0.75          1   25A        25A          80.0       22.0       29.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL: str
+  MOTOR: object
+  Unnamed: 2: object
+  구경(A): str
+  Unnamed: 4: str
+  권장유량
+Q[LPM]: float64
+  권장양정
+(m): float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 권장유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: KW-CMI
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL(단상)
+  Col 1: MOTOR
+  Col 2: nan
+  Col 3: 구경(A)
+  Col 4: nan
+  Col 5: 권장유량
+Q[LPM]
+  Col 6: 권장양정
+(m)
+  Col 7: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+      MODEL(단상) MOTOR Unnamed: 2 구경(A) Unnamed: 4  권장유량\nQ[LPM]  권장양정\n(m)  최대양정\n(m)
+0           NaN  (kW)       (HP)    흡입         토출           NaN        NaN        NaN
+1  KW-ZCMIA 5-2  0.75          1   25A        25A          80.0       22.0       29.0
+2  KW-ZCMIA 5-3     1        1.5   25A        25A           NaN       33.0       43.0
+3  KW-ZCMIA 5-4     1        1.5   25A        25A           NaN       44.0       57.0
+4    KW-CMI 3-3  0.55       0.75   25A        25A          50.0       34.0       42.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL(단상): str
+  MOTOR: object
+  Unnamed: 2: object
+  구경(A): str
+  Unnamed: 4: str
+  권장유량
+Q[LPM]: float64
+  권장양정
+(m): float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 권장유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: 1-K-CMI
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL(3상)
+  Col 1: MOTOR
+  Col 2: nan
+  Col 3: 구경(A)
+  Col 4: nan
+  Col 5: 권장유량
+Q[LPM]
+  Col 6: 권장양정
+(m)
+  Col 7: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+        MODEL(3상) MOTOR Unnamed: 2 구경(A) Unnamed: 4  권장유량\nQ[LPM]  권장양정\n(m)  최대양정\n(m)
+0             NaN  (kW)       (HP)    흡입         토출           NaN        NaN        NaN
+1  1-K-ZCMIA 5-2T  0.75          1   25A        25A          80.0       22.0       29.0
+2  1-K-ZCMIA 5-3T     1        1.5   25A        25A           NaN       33.0       43.0
+3  1-K-ZCMIA 5-4T     1        1.5   25A        25A           NaN       44.0       57.0
+4    1-K-CMI 3-3T  0.55       0.75   25A        25A          50.0       34.0       42.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL(3상): str
+  MOTOR: object
+  Unnamed: 2: object
+  구경(A): str
+  Unnamed: 4: str
+  권장유량
+Q[LPM]: float64
+  권장양정
+(m): float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 권장유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: 1-K-SWPA
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL
+  Col 1: 소비전력(P1)
+  Col 2: nan
+  Col 3: 출력(P2)
+  Col 4: nan
+  Col 5: 최고유량
+Q[LPM]
+  Col 6: 최대양정
+(m)
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+            MODEL 소비전력(P1) Unnamed: 2 출력(P2) Unnamed: 4  최고유량\nQ[LPM]  최대양정\n(m)
+0             NaN     (kW)       (HP)   (kW)       (HP)           NaN        NaN
+1  1-K-SWPA150-IT      1.1        1.5   0.75          1         400.0       22.0
+2  1-K-SWPA300-IT      2.2          3    1.7        2.5         550.0       26.0
+3  1-K-SWPA400-IT        3          4    2.2          3         600.0       29.0
+
+4. DATA TYPES
+----------------------------------------
+  MODEL: str
+  소비전력(P1): object
+  Unnamed: 2: object
+  출력(P2): object
+  Unnamed: 4: object
+  최고유량
+Q[LPM]: float64
+  최대양정
+(m): float64
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 최고유량
+Q[LPM] (float64)
+  * 최대양정
+(m) (float64)
+
+================================================================================
+SHEET: AZ-CMIA
+================================================================================
+
+2. COLUMN HEADERS
+----------------------------------------
+  Col 0: MODEL
+  Col 1: nan
+  Col 2: nan
+  Col 3: nan
+  Col 4: nan
+  Col 5: nan
+  Col 6: nan
+  Col 7: nan
+  Col 8: MOTOR
+  Col 9: nan
+  Col 10: nan
+  Col 11: nan
+  Col 12: 구경(A)
+  Col 13: nan
+  Col 14: nan
+  Col 15: nan
+  Col 16: nan
+  Col 17: nan
+  Col 18: nan
+  Col 19: nan
+  Col 20: nan
+  Col 21: nan
+  Col 22: 권장유량
+Q[LPM]
+  Col 23: nan
+  Col 24: nan
+  Col 25: nan
+  Col 26: 권장양정
+(m)
+  Col 27: nan
+  Col 28: nan
+  Col 29: nan
+  Col 30: 최대양정
+(m)
+  Col 31: 외형치수
+  Col 32: nan
+  Col 33: nan
+  Col 34: nan
+  Col 35: nan
+  Col 36: nan
+  Col 37: nan
+
+3. FIRST 5 ROWS OF DATA
+----------------------------------------
+         MODEL  Unnamed: 1  Unnamed: 2  Unnamed: 3  Unnamed: 4  Unnamed: 5  Unnamed: 6  Unnamed: 7 MOTOR  Unnamed: 9 Unnamed: 10  Unnamed: 11 구경(A)  Unnamed: 13  Unnamed: 14  Unnamed: 15  Unnamed: 16 Unnamed: 17  Unnamed: 18  Unnamed: 19  Unnamed: 20  Unnamed: 21  권장유량\nQ[LPM]  Unnamed: 23  Unnamed: 24  Unnamed: 25  권장양정\n(m)  Unnamed: 27  Unnamed: 28  Unnamed: 29  최대양정\n(m) 외형치수 Unnamed: 32 Unnamed: 33 Unnamed: 34 Unnamed: 35 Unnamed: 36 Unnamed: 37
+0          NaN         NaN         NaN         NaN         NaN         NaN         NaN         NaN  (kW)         NaN        (HP)          NaN    흡입          NaN          NaN          NaN          NaN          토출          NaN          NaN          NaN          NaN           NaN          NaN          NaN          NaN        NaN          NaN          NaN          NaN        NaN    H          H1          H2           W          W1           L          L1
+1  AZ-CMIA 3-3         NaN         NaN         NaN         NaN         NaN         NaN         NaN  0.55         NaN        0.75          NaN   25A          NaN          NaN          NaN          NaN         25A          NaN          NaN          NaN          NaN          50.0          NaN          NaN          NaN       34.0          NaN          NaN          NaN       42.0  257          75         135         210         125         382          96
+2  AZ-CMIA 3-4         NaN         NaN         NaN         NaN         NaN         NaN         NaN  0.75         NaN           1          NaN   25A          NaN          NaN          NaN          NaN         25A          NaN          NaN          NaN          NaN          50.0          NaN          NaN          NaN       45.0          NaN          NaN          NaN       56.0  257          75         135         210         125         400          96
+3  AZ-CMIA 5-2         NaN         NaN         NaN         NaN         NaN         NaN         NaN  0.75         NaN           1          NaN   25A          NaN          NaN          NaN          NaN         25A          NaN          NaN          NaN          NaN          80.0          NaN          NaN          NaN       22.0          NaN          NaN          NaN       29.0  257          75         135         210         125         364          96
+
+4. DATA TYPES
+----------------------------------------
+  MODEL: str
+  Unnamed: 1: float64
+  Unnamed: 2: float64
+  Unnamed: 3: float64
+  Unnamed: 4: float64
+  Unnamed: 5: float64
+  Unnamed: 6: float64
+  Unnamed: 7: float64
+  MOTOR: object
+  Unnamed: 9: float64
+  Unnamed: 10: object
+  Unnamed: 11: float64
+  구경(A): str
+  Unnamed: 13: float64
+  Unnamed: 14: float64
+  Unnamed: 15: float64
+  Unnamed: 16: float64
+  Unnamed: 17: str
+  Unnamed: 18: float64
+  Unnamed: 19: float64
+  Unnamed: 20: float64
+  Unnamed: 21: float64
+  권장유량
+Q[LPM]: float64
+  Unnamed: 23: float64
+  Unnamed: 24: float64
+  Unnamed: 25: float64
+  권장양정
+(m): float64
+  Unnamed: 27: float64
+  Unnamed: 28: float64
+  Unnamed: 29: float64
+  최대양정
+(m): float64
+  외형치수: object
+  Unnamed: 32: object
+  Unnamed: 33: object
+  Unnamed: 34: object
+  Unnamed: 35: object
+  Unnamed: 36: object
+  Unnamed: 37: object
+
+4. Q-H CURVE RELATED COLUMNS
+----------------------------------------
+  * 권장유량
+Q[LPM] (float64)
+  * 권장양정
+(m) (float64)
+  * 최대양정
+(m) (float64)
